@@ -1,0 +1,14 @@
+[project]
+name = "mineclicker"
+version = "1.0"
+authors = [{ name="Sam Henderson", email="js.henderson@live.co.uk" }]
+description = "A python package for playing or building minesweeper like games"
+readme = "README.md"
+dependencies = [
+                "numpy",
+                "pytest"
+                ]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
